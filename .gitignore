@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Game client logs contain personal data: never commit them
+*.clog
+game*.log
+
+# Generated missions and course files
+*.blk
+*.json
+!package.json
+
+# Exported game data stays local
+catalog.json
